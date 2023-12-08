@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 01,Chrome 119.0.0.0,,,08-12-2023 11:47:20,08-12-2023 11:47:32,11.824s,PASSED
+,,,,,,,
+Test Cases/Open StarBridges,Chrome 119.0.0.0,,,08-12-2023 11:47:21,08-12-2023 11:47:29,7.627s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,08-12-2023 11:47:21,08-12-2023 11:47:23,1.831s,PASSED
+"navigateToUrl(""https://starbridges.indocyber.co.id/Application/Account/Login?ReturnUrl=%2fApplication"")",Chrome 119.0.0.0,,,08-12-2023 11:47:23,08-12-2023 11:47:26,2.726s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_LoginName""), ""23123"")",Chrome 119.0.0.0,,,08-12-2023 11:47:26,08-12-2023 11:47:27,0.834s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_LoginName""))",Chrome 119.0.0.0,,,08-12-2023 11:47:27,08-12-2023 11:47:27,0.388s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""CSt51UwWECc="")",Chrome 119.0.0.0,,,08-12-2023 11:47:27,08-12-2023 11:47:27,0.455s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Sign in""))",Chrome 119.0.0.0,,,08-12-2023 11:47:27,08-12-2023 11:47:28,0.470s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,08-12-2023 11:47:28,08-12-2023 11:47:28,0.183s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 119.0.0.0,,,08-12-2023 11:47:28,08-12-2023 11:47:29,0.580s,PASSED
+,,,,,,,
+Test Cases/Open Wiki,Chrome 119.0.0.0,,,08-12-2023 11:47:29,08-12-2023 11:47:32,3.688s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,08-12-2023 11:47:29,08-12-2023 11:47:29,0.657s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Chrome 119.0.0.0,,,08-12-2023 11:47:29,08-12-2023 11:47:31,1.465s,PASSED
+"setText(findTestObject(""Object Repository/Page_Wikipedia/input_search""), ""indonesia"")",Chrome 119.0.0.0,,,08-12-2023 11:47:31,08-12-2023 11:47:32,0.807s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,08-12-2023 11:47:32,08-12-2023 11:47:32,0.114s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 119.0.0.0,,,08-12-2023 11:47:32,08-12-2023 11:47:32,0.581s,PASSED
