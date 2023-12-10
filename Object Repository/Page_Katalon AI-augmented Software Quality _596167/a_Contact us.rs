@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Contact us</name>
+   <tag></tag>
+   <elementGuidId>09c34566-f456-4838-8b4d-70c5f85e74b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn_contact_us.trackable</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='katalon_header']/section/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2af7fe39-3299-4c8f-a21e-a0b85a52026c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn_contact_us trackable</value>
+      <webElementGuid>26a05e8f-8926-4993-a36e-377b71a359e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/contact-us</value>
+      <webElementGuid>11978543-2f46-406c-b592-0f9a5f93e783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-event-name</name>
+      <type>Main</type>
+      <value>Top Nav Contact Us Button Clicked</value>
+      <webElementGuid>fb14c213-c8fe-4f61-abef-e740d0a8175c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-event-category</name>
+      <type>Main</type>
+      <value>User acquisition</value>
+      <webElementGuid>3726addc-7a3b-412b-bb27-9e3fbd380956</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-event-label</name>
+      <type>Main</type>
+      <value>All pages</value>
+      <webElementGuid>53eba767-7282-4ead-a805-181ea685318b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Contact us</value>
+      <webElementGuid>08f977a0-049e-4848-a9d7-73d21baa7c3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;katalon_header&quot;)/section[@class=&quot;homepage_banner&quot;]/div[@class=&quot;wrap_container&quot;]/div[@class=&quot;right_content&quot;]/a[@class=&quot;btn_contact_us trackable&quot;]</value>
+      <webElementGuid>6e8d4700-a378-4580-864c-fb08b59549c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='katalon_header']/section/div/div[2]/a</value>
+      <webElementGuid>4ab5c480-4ef2-47f4-b76a-f785473b54cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Contact us')]</value>
+      <webElementGuid>d6d2fd92-c243-4f84-bf50-1ca7ddf30931</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/contact-us')]</value>
+      <webElementGuid>99996e07-8b7b-4179-9fc7-f3eff8c3bca1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>ae82e73f-e0d1-4f58-8818-7d8615301555</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/contact-us' and (text() = 'Contact us' or . = 'Contact us')]</value>
+      <webElementGuid>faa6b869-4221-4ca7-985c-c64e270f9a33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

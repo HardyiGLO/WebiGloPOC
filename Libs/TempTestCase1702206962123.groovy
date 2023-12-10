@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\1878\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Main Test Cases\\Test Open yutub\\20231210_180801\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\1878\\AppData\\Local\\Temp\\Katalon\\20231210_181602\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Main Test Cases/Test Open yutub', new TestCaseBinding('Test Cases/Main Test Cases/Test Open yutub',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
