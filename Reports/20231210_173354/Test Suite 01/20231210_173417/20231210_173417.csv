@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 01,Chrome 119.0.0.0,,,10-12-2023 17:34:31,10-12-2023 17:35:04,32.626s,PASSED
+,,,,,,,
+Test Cases/Open StarBridges,Chrome 119.0.0.0,,,10-12-2023 17:34:32,10-12-2023 17:35:00,27.910s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,10-12-2023 17:34:32,10-12-2023 17:34:35,2.843s,PASSED
+"navigateToUrl(""https://starbridges.indocyber.co.id/Application/Account/Login?ReturnUrl=%2fApplication"")",Chrome 119.0.0.0,,,10-12-2023 17:34:35,10-12-2023 17:34:55,20.223s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_LoginName""), ""23123"")",Chrome 119.0.0.0,,,10-12-2023 17:34:55,10-12-2023 17:34:56,0.825s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_LoginName""))",Chrome 119.0.0.0,,,10-12-2023 17:34:56,10-12-2023 17:34:56,0.432s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password""), ""CSt51UwWECc="")",Chrome 119.0.0.0,,,10-12-2023 17:34:56,10-12-2023 17:34:57,0.494s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/button_Sign in""))",Chrome 119.0.0.0,,,10-12-2023 17:34:57,10-12-2023 17:34:58,0.747s,PASSED
+"takeScreenshotAsCheckpoint(""logon_page"")",Chrome 119.0.0.0,,,10-12-2023 17:34:58,10-12-2023 17:34:59,1.250s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,10-12-2023 17:34:59,10-12-2023 17:34:59,0.177s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 119.0.0.0,,,10-12-2023 17:34:59,10-12-2023 17:35:00,0.771s,PASSED
+,,,,,,,
+Test Cases/Open Wiki,Chrome 119.0.0.0,,,10-12-2023 17:35:00,10-12-2023 17:35:04,4.248s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,10-12-2023 17:35:00,10-12-2023 17:35:01,0.766s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Chrome 119.0.0.0,,,10-12-2023 17:35:01,10-12-2023 17:35:02,1.671s,PASSED
+"setText(findTestObject(""Object Repository/Page_Wikipedia/input_search""), ""indonesia"")",Chrome 119.0.0.0,,,10-12-2023 17:35:02,10-12-2023 17:35:03,0.873s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,10-12-2023 17:35:03,10-12-2023 17:35:03,0.148s,PASSED
+Start listener action : terminateRunningWebDrivers,Chrome 119.0.0.0,,,10-12-2023 17:35:03,10-12-2023 17:35:04,0.721s,PASSED

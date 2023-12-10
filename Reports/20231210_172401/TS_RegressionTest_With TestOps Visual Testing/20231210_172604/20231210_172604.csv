@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_RegressionTest_With TestOps Visual Testing,Chrome 119.0.0.0,,,10-12-2023 17:26:17,10-12-2023 17:26:24,6.603s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Visual Testing,Chrome 119.0.0.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,10-12-2023 17:26:18,10-12-2023 17:26:22,4.651s,FAILED
+"comment(""Story: Login to CURA system"")",Chrome 119.0.0.0,,,10-12-2023 17:26:18,10-12-2023 17:26:18,0.112s,PASSED
+"comment(""Given that the user has the valid login information"")",Chrome 119.0.0.0,,,10-12-2023 17:26:18,10-12-2023 17:26:18,0.005s,PASSED
+openBrowser(G_SiteURL),Chrome 119.0.0.0,,,10-12-2023 17:26:18,10-12-2023 17:26:22,3.211s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,10-12-2023 17:26:22,10-12-2023 17:26:22,0.118s,FAILED
+Start listener action : terminateRunningWebDrivers,Chrome 119.0.0.0,,,10-12-2023 17:26:22,10-12-2023 17:26:22,0.825s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Visual Testing,Chrome 119.0.0.0,"Verify if users can book an appointment sucessfully.
+Pre-condition: Users have already logged in
+
+Steps:
+- Fill in appoinment's information
+- Click on appointment's button
+
+Expected results:
+Appointment Confirmation page is displayed",,10-12-2023 17:26:22,10-12-2023 17:26:24,1.511s,FAILED
+"comment(""Story: Book an appointment"")",Chrome 119.0.0.0,,,10-12-2023 17:26:23,10-12-2023 17:26:23,0.005s,PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 119.0.0.0,,,10-12-2023 17:26:23,10-12-2023 17:26:23,0.003s,PASSED
+openBrowser(G_SiteURL),Chrome 119.0.0.0,,,10-12-2023 17:26:23,10-12-2023 17:26:23,0.042s,FAILED
+Start listener action : terminateRunningWebDrivers,Chrome 119.0.0.0,,,10-12-2023 17:26:23,10-12-2023 17:26:24,0.918s,PASSED

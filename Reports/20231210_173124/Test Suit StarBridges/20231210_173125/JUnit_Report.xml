@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suit StarBridges" time="11.359" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suit StarBridges" tests="1" failures="0" errors="0" time="11.359" skipped="0" timestamp="10-12-2023T17:31:37" hostname="1878 - 192.168.10.118" id="Test Suites/Test Suit StarBridges">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1878\\git\\WebiGloPOC\\WebiGloPOC\\Reports\\20231210_173124\\Test Suit StarBridges\\20231210_173125"/>
+         <property name="logFiles" value="C:\\Users\\1878\\git\\WebiGloPOC\\WebiGloPOC\\Reports\\20231210_173124\\Test Suit StarBridges\\20231210_173125\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-logon_page.png"/>
+         <property name="hostName" value="1878 - 192.168.10.118"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.118"/>
+         <property name="sessionId" value="6591875d849f7b2b7c5f652bc0ac1b1e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Open StarBridges" time="10.92" classname="Test Cases/Open StarBridges" status="PASSED">
+         <system-out><![CDATA[10-12-2023T17:31:38 - [TEST_CASE][PASSED] - Test Cases/Open StarBridges: Test Cases/Open StarBridges
+
+10-12-2023T17:31:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-12-2023T17:31:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-12-2023T17:31:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-12-2023T17:31:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-12-2023T17:31:40 - [TEST_STEP][PASSED] - navigateToUrl("https://starbridges.indocyber.co.id/Application/Account/Login?ReturnUrl=%2fApplication"): Navigate to 'https://starbridges.indocyber.co.id/Application/Account/Login?ReturnUrl=%2fApplication' successfully
+
+10-12-2023T17:31:44 - [MESSAGE][PASSED] - Navigate to 'https://starbridges.indocyber.co.id/Application/Account/Login?ReturnUrl=%2fApplication' successfully
+
+10-12-2023T17:31:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_LoginName"), "23123"): Text '23123' is set on object 'Object Repository/Page_Login/input_LoginName'
+
+10-12-2023T17:31:45 - [MESSAGE][PASSED] - Text '23123' is set on object 'Object Repository/Page_Login/input_LoginName'
+
+10-12-2023T17:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_LoginName")): Object: 'Object Repository/Page_Login/input_LoginName' is clicked on
+
+10-12-2023T17:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_LoginName' is clicked on
+
+10-12-2023T17:31:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password"), "CSt51UwWECc="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+10-12-2023T17:31:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password'
+
+10-12-2023T17:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/button_Sign in")): Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+10-12-2023T17:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Sign in' is clicked on
+
+10-12-2023T17:31:47 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("logon_page"): Taking screenshot successfully
+
+10-12-2023T17:31:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+10-12-2023T17:31:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-logon_page.png]]
+
+10-12-2023T17:31:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-12-2023T17:31:48 - [MESSAGE][PASSED] - Browser is closed
+
+10-12-2023T17:31:48 - [TEST_STEP][PASSED] - Start listener action : terminateRunningWebDrivers: null
+
+10-12-2023T17:31:48 - [TEST_STEP][PASSED] - cleanup(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-12-2023T17:31:37 - [TEST_SUITE][PASSED] - Test Suit StarBridges: Test Cases/Open StarBridges]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
